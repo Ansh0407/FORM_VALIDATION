@@ -91,6 +91,10 @@ function validateConfirmPassword() {
         confirmPasswordError.style.display = "block";
     }
 }
+function val() {
+    alert ("Login successfully");
+    window.location.href = "success.html";
+}
 
 function validateForm() {
     validateEmail();
@@ -98,6 +102,7 @@ function validateForm() {
     validatePassword();
     validateDateOfBirth();
     validateConfirmPassword();
+    val();
 
     var invalidInputs = document.querySelectorAll('.is-invalid');
 
@@ -111,11 +116,13 @@ function validateForm() {
         closeBtn.onclick = function () {
             modal.style.display = "none";
         }
-
+       
         return false;
     }
     
     return true;
+
+
 }
 
 document.getElementById("email").addEventListener("input", validateEmail);
