@@ -7,8 +7,8 @@ body {
 .container {
     background-color: #fff;
     padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.75);
 }
 
 .heading {
@@ -32,7 +32,7 @@ body {
 }
 
 .is-valid {
-    border-color: #5bc0de;
+    border-color: #5bde75;
 }
 
 .modal {
